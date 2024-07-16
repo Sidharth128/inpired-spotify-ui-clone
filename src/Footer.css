@@ -1,0 +1,15 @@
+
+.footer_icon:hover,
+.footer_green:hover {
+    transition: transform 0.2s /*also written as 200ms*/  ease-in-out;
+    transform:scale(1.2) !important;
+
+}
+
+.footer_right * .MuiSlider-root :hover {
+    color:green;
+}
+/*go to footer_right, any material ui slider */
+.footer_right * .MuiSlider-root {
+    color:white;
+}
